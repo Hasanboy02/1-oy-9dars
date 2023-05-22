@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2; ;
+}
+
+.services__title{
+    margin-top: 20px;
+}
+
+.services__title h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    text-align: center;
+    color: #373737;
+}
+
+.services__title p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+    margin-top: 10px;
+}
+
+.services__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 110px;
+    gap: 50px;
+}
+
+.round{
+    text-align: center;
+    padding-top: 18px;
+}
+
+.services__list{
+    list-style: none;
+    background-color: white;
+    padding: 30px;
+    max-width: 344px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px
+}
+
+.services__list .round{
+    width: 75px;
+    height:75px;
+    background-color: #717cff;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.services__list .purple {
+    background-color: #717cff;
+}
+
+.services__list .red {
+     background-color: #FF5959;
+}
+
+.services__list .green{
+    background: #70CE88;
+}
+
+.services__list .orange{    
+    background: #FA706C;
+}
+
+.services__list h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #37474F;
+    padding-bottom: 9px;
+    margin: 30px o 10px;
+}
+
+.services__list p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(55, 71, 79, 0.721569);
+    margin-bottom: 25px;
+    width: 300px;
+    height: 90px;
+}
+
+.services__list a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.439286px;
+    color: #717CFF;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0,4s ease;
+}
+
+.services__list a:hover{
+    color: #0a17a7;
+    gap: 20px;
+}
